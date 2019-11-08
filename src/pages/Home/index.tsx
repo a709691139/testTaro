@@ -22,7 +22,7 @@ export default class Home extends Component<Props, State> {
   }
 
   sleep = async () => {
-    return await new Promise(resolve => {
+    await new Promise(resolve => {
       setTimeout(() => {
         resolve(666);
       }, 1000);
