@@ -37,6 +37,7 @@ export default class Home extends Component<Props, State> {
         value1: 222
       },
       () => {
+        // 只要在setState后面加多个setState就会卡死
         this.setState({
           value2: 333
         });
