@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "jsxFactory": "Taro.createElement",
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "lib",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types"],
+    "rootDir": ".",
+    "baseUrl": "./src",
+    "paths": {
+      "components": ["components"],
+      "services": ["services"],
+      "stores": ["stores"],
+      "utils": ["utils"],
+      "styles": ["styles"],
+      "libs": ["libs"],
+      "assets": ["assets"],
+      "theme": ["theme"],
+      "pages": ["pages"]
+    }
+  },
+  "exclude": ["node_modules", "dist"],
+  "compileOnSave": false
+}

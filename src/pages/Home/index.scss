@@ -1,0 +1,451 @@
+.page.Home {
+  padding-bottom: 200px;
+  position: relative;
+  .indexdi {
+    height: 422px;
+    width: 100%;
+  }
+
+  .indexdi > .taro-img {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+  }
+
+  .indexdi > .image {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+  }
+
+  .indexup {
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    z-index: 5;
+    width: 100%;
+    height: auto;
+    min-height: 480px;
+    margin-bottom: 40px;
+  }
+
+  .indexbox {
+    background-color: white;
+    border-radius: 20px;
+    width: 670px;
+  }
+
+  .indexbox .li {
+    padding: 30px 0;
+    margin: 0 40px;
+    line-height: 44px;
+    position: relative;
+    border-bottom: 2px solid #eeeeee;
+    font-size: 30px;
+    color: #858585;
+  }
+
+  .indexbox .li .taro-text:first-child {
+    margin-right: 30px;
+  }
+
+  .indexbox .li .taro-text.highlight {
+    color: #2b2b2b;
+  }
+
+  .indexbox .li text:first-child {
+    margin-right: 30px;
+  }
+
+  .indexbox .li text.highlight {
+    color: #2b2b2b;
+  }
+
+  .isearchimg2 {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    vertical-align: top;
+  }
+
+  .li .center {
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+  }
+
+  .time-choose {
+    margin-left: 100px;
+  }
+
+  .iconnum {
+    right: 20px;
+  }
+
+  .iconfont {
+    margin-top: -3px;
+    font-size: 36px;
+    color: #2b2b2b;
+  }
+
+  .iconbutton button {
+    width: 590px;
+    height: 88px;
+    /* margin-top: 40px; */
+    margin: 40px auto;
+    line-height: 88px;
+    border-radius: 44px;
+    background: #677bff;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .footban {
+    width: 100%;
+    height: 400px;
+  }
+
+  .sort {
+    margin: 0 15px;
+    text-align: center;
+  }
+
+  .sort .image {
+    width: 336px;
+    height: 238px;
+    margin: 0 12px;
+  }
+
+  .sort .taro-img {
+    width: 336px;
+    height: 238px;
+    margin: 0 12px;
+  }
+
+  .title1 {
+    margin: 30px 30px 0;
+    font-size: 36px;
+    color: #2b2b2b;
+    position: relative;
+    display: block;
+  }
+
+  .more {
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    color: #969696;
+  }
+
+  .more .image {
+    width: 48px;
+    height: 48px;
+    vertical-align: top;
+  }
+
+  .more .taro-img {
+    width: 48px;
+    height: 48px;
+    vertical-align: top;
+  }
+
+  .list1 {
+    margin: 30px 30px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .list1 .image {
+    width: 100%;
+    height: 328px;
+  }
+
+  .list1 .taro-img {
+    width: 100%;
+    height: 328px;
+  }
+
+  .list1:nth-last-child(2) {
+    border-bottom: none;
+  }
+
+  .info_right {
+    width: 94%;
+    margin: 0 3%;
+    height: 120px;
+    line-height: 45px;
+    float: left;
+  }
+
+  .infritbox {
+    margin-top: 10px;
+  }
+
+  .info_right1 {
+    width: 100%;
+    font-size: 32px;
+    color: #333333;
+  }
+
+  .info_right2 {
+    width: 100%;
+    color: #858585;
+    font-size: 28px;
+  }
+
+  .iconleft {
+    width: 49.5%;
+    border-right: 1px solid #eee;
+    position: relative;
+  }
+
+  .iconrit {
+    width: 49.5%;
+  }
+
+  .ritfont1 {
+    color: #858585;
+    width: 340px;
+    overflow: hidden;
+    font-size: 28px;
+    line-height: 30px;
+    height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ritfont2 {
+    color: #ffb618;
+  }
+
+  .ritfont3 {
+    color: #ffb618;
+    font-size: 48px;
+    margin-left: 10px;
+  }
+
+  .ritfont4 {
+    color: #858585;
+  }
+
+  .food-desc {
+    width: 390px;
+    margin-left: 20px;
+    line-height: 50px;
+  }
+
+  .food-desc .rebate {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+    border: 1px solid #ff5a00;
+    font-size: 22px;
+    color: #ff5a00;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .food-desc .title {
+    display: inline-block;
+    width: 290px;
+    /* margin-left: 10px; */
+    line-height: 32px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 32px;
+    color: #333333;
+    vertical-align: top;
+  }
+
+  .food-desc .explain {
+    width: 365px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    line-height: 36px;
+    font-size: 28px;
+    color: #969696;
+  }
+
+  .footer {
+    width: 390px;
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .food-desc .price text,
+  .food-desc .price .taro-text {
+    line-height: 28px;
+    font-size: 28px;
+    color: #ffb618;
+  }
+
+  .food-desc .price text.text2,
+  .food-desc .price .taro-text.text2 {
+    font-size: 42px;
+  }
+
+  .food-desc .old-price {
+    line-height: 28px;
+    font-size: 28px;
+    color: #969696;
+    text-decoration: line-through;
+  }
+
+  .food-desc .reserve {
+    width: 128px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    right: 0px;
+    bottom: -4px;
+    background: #677bff;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .list2 {
+    // width: 630px;
+    padding: 30px;
+    margin: 30px 30px 0 30px;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+
+  .list2 .image,
+  .list2 .taro-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    vertical-align: top;
+  }
+  .indexbox .li .search-inp {
+    display: inline-block;
+    color: #2b2b2b;
+    vertical-align: top;
+    width: auto;
+  }
+
+  ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #d2d2d2;
+  }
+
+  .limitedShop {
+    width: 390px;
+    margin-left: 20px;
+  }
+
+  .limitedShop .title {
+    display: inline-block;
+    width: 290px;
+    line-height: 32px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 32px;
+    color: #333333;
+    vertical-align: top;
+  }
+  
+  .limitedShop .title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    width: 390px;
+    margin-bottom: 5px;
+    line-height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 32px;
+    color: #333333;
+    vertical-align: top;
+    white-space:normal;
+  }
+
+
+  .limitedShop .footer {
+    width: 390px;
+    position: absolute;
+    bottom: 30px;
+  }
+  
+  .limitedShop .price .text {
+    // line-height: 28px;
+    font-size: 28px;
+    color: #ffb618;
+  }
+  
+  .limitedShop .price .text.text2 {
+    font-size: 42px;
+  }
+  
+  .food-desc .old-price,
+  .limitedShop .old-price {
+    // line-height: 28px;
+    font-size: 28px;
+    color: #969696;
+    text-decoration: line-through;
+  }
+  
+  .food-desc .reserve,
+  .limitedShop .rushBuy {
+    width: 128px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    right: 0px;
+    bottom: -4px;
+    background: #677bff;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .limitedShop .footer .progress {
+    width: 235px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    background: #cecdcd;
+    overflow: hidden;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 25px;
+  }
+  .limitedShop .footer .progress .percent {
+    display: block;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    background: #09bb07;
+  }
+  
+  .limitedShop .footer .progress .text {
+    position: relative;
+    z-index: 10;
+    color: #fff;
+  }
+  .limitedShop .price{
+    line-height: normal;
+  }
+  .limitedShop .old-price{
+    line-height: normal;
+  }
+  
+
+  picker{
+    display: inline-block;
+  }
+}

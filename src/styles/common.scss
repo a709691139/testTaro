@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import './color.scss';
+
+
+view,text{
+  box-sizing: border-box;
+}
+
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.flex3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ib {
+  display: inline-block;
+  vertical-align: top;
+}
+.ab {
+  position: absolute;
+}
+page, html {
+  background-color: #f6f6f6;
+  font-family: "SourceHanSansSC-Regular";
+  font-size: 28px;
+  color: #333;
+  line-height:1.6;
+}
+
+.flex_bet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex_center {
+  display: flex;
+  align-items: center;
+}
+
+.rel {
+  position: relative;
+
+}
+.home{
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 140px;
+
+}
+.fr {
+  float: right;
+}
+.ib{
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.rich-img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin-bottom: 15px;
+}
+.udlr {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.amap-logo,.amap-copyright{
+  display: none!important;
+}
